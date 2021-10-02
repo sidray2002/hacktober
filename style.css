@@ -511,7 +511,7 @@
     height: 150px;
     margin: 20px;
     text-align: centre;
-	margin-left: 14px;
+	margin-left: 8px;
 }
 
 .register button::after, .resources button::before{
