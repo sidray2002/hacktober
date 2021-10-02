@@ -603,7 +603,285 @@
     left: 0%;
 }
 
+@media (max-width:1200px){
 
+    .imgcode img{
+        width: 20%;
+        margin-top: 150px;
+        
+    }
+    .follow{
+        width:80%; margin-left:10%;
+        margin-bottom: 15%;
+    }
+}
+
+@media (max-width:1000px){
+
+    .resources button{
+        width:40%;
+        
+
+    }
+    .register button{
+        width:100%;
+    }
+}
+
+@media(max-width:900px)
+{
+    .menu{
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media(max-width:800px)
+{
+    .design{
+    left: -1000px;
+    width: 100%;
+    margin-right: 0;
+}
+
+.design button{
+    
+    font-size: 24px;
+    width: 105%;
+    text-align:center;
+    margin-left: -5%;
+    border-radius: 0;
+    padding-left: 10%;
+    margin-right: 0;
+
+    
+    }
+
+    .imgcode{
+
+        display: none;
+    }
+    .img{
+        width: 90%;
+        text-align: center;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .follow{
+        flex-direction: column;
+        text-align: center;
+    }
+    .menu{
+        margin: auto;
+        margin-top: 10%;
+    }
+    .icons img{
+        width: 30%;
+    }
+    .email-icon{
+        width: 40%;
+    }
+}
+
+@media(max-width:700px)
+{
+    .sponsers{
+        font-size: 24px;
+    }
+    .sponsers img{
+        height: 28px;
+        margin-left: 2px;
+
+    }
+    .design button{
+        padding-left: 10%;
+    }
+
+    .timer h2{
+        font-size: 40px;
+    }
+    .timer p{
+        font-size: 40px;
+    }
+    .about h1{
+        font-size: 40px;
+    }
+    .about p{
+        font-size: 18px;
+    }
+    
+    .resources h1{
+        font-size: 40px;
+    }
+    .resources button{
+        font-size: 18px;
+        height: 100px;
+    }
+    .roadmap h1
+    {
+        font-size: 40px;
+    }
+    .register button{
+        font-size:40px;
+
+    }
+    .follow h2{
+        font-size: 40px;
+        margin-left: 0;
+        margin-right:0;
+        padding: 0;
+        margin-bottom: 10%;
+    }
+    #progress-bar-container li .step-inner{
+        font-size: 12px;
+    }
+    .section-details__cards-header{
+        font-size: 18px;
+    }
+    .section-details__cards-content{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:500px)
+{
+    .design button{
+        height: 60px;
+    }
+    .img{
+        width: 100%;
+    }
+    .resources{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .resources button{
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+    }
+    .register button{
+        margin-top: 40%; 
+
+    }
+    .design button{
+        padding-left: 10%;
+    }
+}
+
+@media(max-width:450px)
+{
+    .sponsers{
+        font-size: 18px;
+    }
+    .sponsers img{
+        height: 20px;
+        margin-left: 2px;
+
+    }
+
+    .design button{
+        padding-left: 10%;
+    }
+
+    .timer h2{
+        font-size: 28px;
+    }
+    .timer p{
+        font-size: 28px;
+    }
+    .about h1{
+        font-size: 28px;
+    }
+    .about p{
+        font-size: 14px;
+    }
+    .section-details__cards-header{
+        font-size: 14px;
+    }
+    .section-details__cards-content{
+        font-size: 14px;
+    }
+    #progress-content-section .section-content p{
+        font-size: 12px;
+    }
+
+    
+    .resources h1{
+        font-size: 28px;
+    }
+    .resources button{
+        font-size: 14px;
+        height: 100px; 
+    }
+    
+    .roadmap h1
+    {
+        font-size: 28px;
+    }
+    .register button{
+        font-size: 28px;
+        height:  100px;
+        
+        margin-bottom: 50%;
+        padding:0;
+
+    }
+    .follow h2{
+        font-size: 28px;
+        margin-left: 0;
+        margin-right:0;
+        padding: 0;
+        margin-bottom: 20%;
+    }
+    #progress-bar-container li .step-inner{
+        font-size: 12px;
+    }
+    .menu{
+        margin: auto;
+        margin-top: 10%;
+        width: 200px;
+        height:200px;
+    }
+    #progress-bar-container li .step-inner{
+        font-size: 8px;
+    }
+    #progress-bar-container li:before{
+        width:20px;
+        height: 20px;
+    }
+    #progress-bar-container li:after{
+        margin-top:50px
+    }
+}
+
+@media(max-width:400px)
+{
+    .register button{
+
+        margin-top: 50%;
+
+    }
+
+}
+
+@media(max-width:352px){
+    .timer{
+        flex-direction: column;
+        min-height: 300px;
+        
+    }
+    .timer h2{
+        margin-top: 10px; margin-bottom: 10px;
+    }
+    .timer p{
+        margin-top: 10px;
+        margin-top: 20px;
+        padding:0;
+        text-align: center;
+    }
+}
 
 
 
