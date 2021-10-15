@@ -10,11 +10,24 @@
     <title>HacktoberFest-IIIT BBSR</title>
 </head>
 <body>
-    <section class="header">
+    <header>
+
+           <nav>
+                <div class="logo"><b>IIIT BBSR </b>x PSoc </div>
+                <div class="bar">
+                    <ul>
+                        <li><a href="#new">WHAT'S NEW?</a></li>
+                        <li><a href="#resource">RESOURCES</a></li>
+                        <li><a href="#events">EVENTS</a></li>
+                        <li><a href="#register">REGISTER</a></li>
+                        <li><a href="#contact">CONTACT US</a></li>
+                    </ul>
+                </div>
+            </nav> 
+
+
+
         
-        <div class="design">
-            <button>REGISTER NOW</button>
-        </div>
         <div class="img">
         <img src="assets/logo-hacktoberfest-full.f42e3b1.png" alt="HacktoberFest 2021">
                 </div>
@@ -35,7 +48,7 @@
             
 
 
-    </section>
+        </header>
 
    
 
@@ -52,7 +65,7 @@
 
 
 
-    <section class="about">
+    <section class="about" id="new">
         <div>
             <h1>WHAT IS HACKTOBERFEST?</h1>
         </div>
@@ -61,19 +74,19 @@
             Hacktoberfest is a month-long celebration of open source software. Maintainers are invited to guide would-be contributors toward issues that will help move the project forward, and contributors get the opportunity to give back to both projects they like and others they've just discovered. No contribution is too small — bug fixes and documentation updates are valid ways of participating. </p>
         </div>
 
+        <div class="cards">
         <div class="section-details__cards-1">
-            <span class="fa-stack fa-4x red">
-                <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                <i class="fa fa-users fa-stack-1x fa-inverse"></i>
+            <span class="fa-stack fa-4x red" >
+                <i class="fas fa-users"></i>
             </span>
             <h4 class="section-details__cards-header">OPEN TO EVERYONE</h4>
             <div class="section-details__cards-content">
                 Hacktoberfest is open to everyone in our global community. Whether you’re a developer, or a student learner you can help drive growth of open source and make positive contributions to an ever-growing community.
             </div>
+        </div>
             <div class="section-details__cards-2">
                 <span class="fa-stack fa-4x red">
-                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                    <i class="fa fa-check fa-stack-1x fa-inverse"></i>
+                    <i class="fas fa-check"></i>
                 </span>
                 <h4 class="section-details__cards-header">NO HARDCORE REQUIREMENTS</h4>
                 <div class="section-details__cards-content">
@@ -82,8 +95,7 @@
             </div>
             <div class="section-details__cards-3">
                 <span class="fa-stack fa-4x red" >
-                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                    <i class="fa fa-calendar fa-stack-1x fa-inverse"></i>
+                    <i class="fas fa-calendar-check"></i>
                 </span>
                 <h4 class="section-details__cards-header" >MONTH LONG CHALLENGE</h4>
                 <div class="section-details__cards-content">
@@ -91,10 +103,11 @@
                 </div>
             </div>
         </div>
+    </div>
     </section>
 
 
-    <section class="resources">
+    <section class="resources" id="resource">
         <h1>RESOURCES:</h1>
         <div class="resources-btn">
         <button onclick=" window.open('https://www.digitalocean.com/community/tutorial_series/an-introduction-to-open-source','_blank')">NEW TO OPENSOURCE?</button>
@@ -102,21 +115,23 @@
         <button onclick=" window.open('https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github','_blank')">HOW TO CREATE A PR?</button>
         <button onclick=" window.open('https://up-for-grabs.net/#/','_blank')">UP FOR GRABS</button>
         <button onclick=" window.open('https://www.firsttimersonly.com/','_blank')">FIRST TIMERS ONLY</button>
+        
+        <button onclick=" window.open('https://docs.google.com/document/d/1gFKOhyUqMZzrZcbq8A_TpO5x9J9HK6agv70awCH8pyI/edit','_blank')">CODE OF CONDUCT</button>
         <button onclick=" window.open('https://github.com/mungell/awesome-for-beginners','_blank')">AWESOME FOR BEGINNERS</button>
-        <button onclick=" window.open('https://docs.google.com/document/d/1gFKOhyUqMZzrZcbq8A_TpO5x9J9HK6agv70awCH8pyI/edit','_blank')">CODE OF CONDUCT</button></div>
+    </div>
     </section>
 
-    <section class="roadmap">
+    <section class="roadmap" id="events">
         <h1>ROADMAP</h1>
 <br> 
 <div class="process-wrapper">
 <div id="progress-bar-container">
 	<ul>
-		<li class="step step01 active"><div class="step-inner">KICK-OFF</div></li>
-		<li class="step step02"><div class="step-inner">3rd OCTOBER</div></li>
-		<li class="step step03"><div class="step-inner">10th OCTOBER</div></li>
-		<li class="step step04"><div class="step-inner">17th OCTOBER</div></li>
-		<li class="step step05"><div class="step-inner">END</div></li>
+		<li class="step step01 active"><div class="step-inner">3rd OCTOBER</div></li>
+		<li class="step step02"><div class="step-inner">12nd OCTOBER</div></li>
+		<li class="step step03"><div class="step-inner">17th OCTOBER</div></li>
+		<li class="step step04"><div class="step-inner">24th OCTOBER</div></li>
+		<li class="step step05"><div class="step-inner">31st OCTOBER</div></li>
 	</ul>
 	
 	<div id="line">
@@ -126,39 +141,48 @@
 
 <div id="progress-content-section">
 	<div class="section-content discovery active">
-		<h2>KICK-OFF</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+		<h2>GIT & GITHUB</h2>
+		<p>Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows.
+            GitHub, Inc. is a provider of Internet hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its own features. </br>Dive deep into these concepts with our speakers:-</p>
 	</div>
 	
 	<div class="section-content strategy">
-		<h2>GITHUB SESSION</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+		<h2>What's next after CONTRIBUTING.md?</h2>
+		<p>In today’s world, Open source is a gem and a blessing for the world. Developers all over the world come together and contribute to amazing projects that everyone can use for free.
+
+
+            In this event, PSoc and GDSC IIIT-Bh will guide you on for your first open source contribution via Hacktoberfest - a month long beginner friendly open source event.
+            
+            
+            Expand your knowledge and get hands-on advice from <b style="background-color: transparent;">Kartikey Rawat</b> to get started with open source contributions this Hacktoberfest.
+            
+            You'd get to know how to get started in open source, what to look for in a GitHub repository, how to do your contributions.</p>
 	</div>
 	
 	<div class="section-content creative">
-		<h2>GSoc SESSION</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+		<h2>COMMING SOON</h2>
+		<p>Hold your seats tight, exciting events on way.</p>
 	</div>
 	
 	<div class="section-content production">
-		<h2>Lorem ipsum dolor sit.</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+		<h2>COMMING SOON</h2>
+		<p>Hold your seats tight, exciting events on way.</p>
 	</div>
 	
 	<div class="section-content analysis">
-		<h2>Lorem, ipsum.</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+		<h2>COMMING SOON</h2>
+		<p>Hold your seats tight, exciting events on way.</p>
 	</div>
 	</div>
 </div>
     </section>
 
-    <section class="register">
+    <section class="register" id="register">
         <button>REGISTER NOW</button>
     </section>
 
 
-    <section class="follow">
+    <section class="follow" id="contact">
         <h2>Follow Us:</h2>
         <div class="menu">
             <div class="icons">
@@ -170,6 +194,16 @@
             <img class="email-icon" src="assets/Screenshot_2021-09-29_015459-removebg-preview.png" alt="">
         </div>
     </section>
+
+    <footer style="background-color:tomato;height:20vh;margin-top: 20%; padding: 50px;">
+      <div class="psoc" style="background-color: transparent;">
+        <h1 style="background-color: transparent;">
+            PSoc
+        </h1>
+          <a href="" style="background-color: transparent; color: white;text-decoration: none;">Website</a> <br>
+          <a href="" style="background-color: transparent; color: white;text-decoration: none;">Members</a>
+      </div>
+    </footer>
 </body>
 </html>
 
@@ -228,5 +262,26 @@ $(".step05").click( function() {
 	$(".analysis").addClass("active").siblings().removeClass("active");
 });
 
- 
-    </script>
+</script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+<script>
+    $(window).scroll(function(){
+        if($(window).scrollTop()){
+            $("nav").addClass("tomato");
+        }
+        else{
+            $("nav").removeClass("tomato");
+        }
+    })
+
+    $(window).scroll(function(){
+        if($(window).scrollTop()){
+            $("").addClass("tomato");
+        }
+        else{
+            $("nav").removeClass("tomato");
+        }
+    })
+</script>
